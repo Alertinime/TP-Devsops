@@ -12,7 +12,7 @@
     "format:write": "prettier --write app",
     "format:check": "prettier --check app",
     "test": "vitest",
-    "docs:build": "typedoc src"
+    "docs:build": "typedoc --entryPoints ./app/services --out docs"
   },
   "dependencies": {
     "@remix-run/node": "^2.15.0",
